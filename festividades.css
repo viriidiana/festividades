@@ -1,0 +1,68 @@
+/* Estilos para todas las imágenes */
+img {
+    width: 200px; /* Establecer el mismo ancho para todas las imágenes */
+    height: auto; /* Mantener la proporción de aspecto */
+}
+
+/* Estilos para la tabla de eventos festivos */
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.events-table th, .events-table td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffcc00;
+    color: #ffffff;
+}
+
+/* Estilos para el contenedor de medios */
+.media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor de video */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporción 16:9 para video */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para los títulos de las listas */
+h2 {
+    color: #ffcc00;
+    text-align: center;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+/* Estilos para las listas */
+.list {
+    flex-basis: 45%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    color: #ffffff;
+}
+   
